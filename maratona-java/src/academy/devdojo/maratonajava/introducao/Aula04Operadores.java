@@ -47,6 +47,14 @@ public class Aula04Operadores {
         bonus += 1000;
         System.out.println(bonus);
 
-
+        // ++ --
+        int contador = 0;
+        contador += 1; // contador = contador + 1
+        contador++;
+        contador--;
+        ++contador;
+        --contador;
+        int contador2 = 0;
+        System.out.println(++contador2);
     }
 }
