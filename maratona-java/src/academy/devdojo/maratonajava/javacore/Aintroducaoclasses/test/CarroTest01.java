@@ -24,11 +24,5 @@ public class CarroTest01 {
         System.out.println(carro2.nome);
         System.out.println(carro2.modelo);
         System.out.println(carro2.ano);
-
-
-
-
-
-
     }
 }
