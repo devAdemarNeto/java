@@ -3,6 +3,7 @@ package academy.devdojo.maratonajava.javacore.Bintroducaometodos.dominio;
 public class Calculadora {
 
     public void somaDoisNumeros (){
+
         System.out.println(10 + 10);
     }
 
@@ -19,5 +20,9 @@ public class Calculadora {
             return 0;
         }
         return num1/num2;
+    }
+
+    public void alteraDoisNumeros(int num1, int num2){
+
     }
 }
