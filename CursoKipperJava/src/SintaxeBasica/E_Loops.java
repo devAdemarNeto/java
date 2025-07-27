@@ -1,3 +1,5 @@
+package SintaxeBasica;
+
 import java.util.ArrayList;
 
 public class E_Loops {

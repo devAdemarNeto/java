@@ -1,3 +1,5 @@
+package SintaxeBasica;
+
 public class B_Condicionais {
     public static void main(String[] args) {
         byte b = 100;

@@ -1,3 +1,5 @@
+package SintaxeBasica;
+
 public class C_Vetor {
     public static void main(String[] args) {
         //Arrays => int[] colecaoDeInteiros = {1,2,3,4,5} - tamanho fixo (Representa uma colação de elementos )

@@ -1,3 +1,5 @@
+package SintaxeBasica;
+
 public class F_Casting {
     //Casting => transforma o valor de variavel, como se declasse uma variavel nova
     //ex:
