@@ -29,6 +29,7 @@ public class ScannerDoUsuario {
             System.out.println("Ninja muito nova precisa treinar mais");
         }
 
+
         //Fechar sempre o Scanner
         caixaDeTexto.close();
     }
