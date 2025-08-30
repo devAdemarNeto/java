@@ -34,6 +34,10 @@ public class Main {
         Hinata.aldeia = "Folha";
         Hinata.biakugamAtivado();
 
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto Hyuga Usumaki";
+        
+
 
 
 
