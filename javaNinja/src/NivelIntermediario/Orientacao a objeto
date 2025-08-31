@@ -1,4 +1,7 @@
+Classe: um molde para criar um objeto.
+Objeto: algo que vc consegue manipular
+
 Herança:
 Usar caracteríticas de uma clase mãe em outras classes filhas para assim poupar código e agilizar trabalho.
 
-Interface: não interface não se consegue criar uma classe a partir dela
+Interface: é como uma  não interface não se consegue criar uma classe a partir dela

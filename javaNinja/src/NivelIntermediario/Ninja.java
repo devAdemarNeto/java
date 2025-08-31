@@ -5,6 +5,11 @@ public class Ninja {
     String aldeia;
     int idade;
 
+    //Metodo geral! Todos os ninjas vao ter
+    public void habilidadeEspecial(){
+        System.out.println("Meu nome é " + nome + " esse é meu ataque especial");
+    }
+
 
 
 

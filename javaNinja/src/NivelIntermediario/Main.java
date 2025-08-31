@@ -10,7 +10,8 @@ public class Main {
         Naruto.nome = "Naruto Uzumaki";
         Naruto.aldeia = "Aldeia da Folha";
         Naruto.idade = 16;
-        Naruto.modoSabioAtivado();
+        Naruto.ModoSabioAtivado();
+        Naruto.habilidadeEspecial(); //polimorfismo
 
         //OBJETO 2
         Uchiha Sasuke = new Uchiha();
@@ -18,6 +19,7 @@ public class Main {
         Sasuke.idade = 18;
         Sasuke.aldeia = "Folha";
         Sasuke.sharinganAtivado();
+        Sasuke.habilidadeEspecial(); //Polimorfismo
 
 
 
@@ -35,23 +37,14 @@ public class Main {
         Hinata.biakugamAtivado();
 
         Boruto Boruto = new Boruto();
-        Boruto.nome = "Boruto Hyuga Usumaki";
-        
+        Boruto.nome = "Boruto Uzumaki";
+        Boruto.aldeia = "Aldeia da Folha";
+        Boruto.idade = 9;
 
+        Boruto.AtivarJougan();
+        Boruto.ModoSabioAtivado();
+        Boruto.AtivarKarma();
 
-
-
-
-
-
-
-        //Chamando metodo String  euSouUmNinja(), com uma variavel
-        String chamandoMetodo = Sasuke.euSouUmNinja();
-        System.out.println(chamandoMetodo);
-
-        //Chamando metodo com paranmetro
-        int quantoTempoFalta = Sasuke.anosParaSeTornarHokade(70);
-        System.out.println("Voce tem" + Sasuke.idade + " Então falta no minimo: " + quantoTempoFalta + " para você se tornar hokage");
 
 
     }
