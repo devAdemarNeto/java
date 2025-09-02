@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CursoKipperJava/CursoKipperJava.iml" filepath="$PROJECT_DIR$/CursoKipperJava/CursoKipperJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DIO/DIO.iml" filepath="$PROJECT_DIR$/DIO/DIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntruducaoJavaLogicaBasica/IntruducaoJavaLogicaBasica.iml" filepath="$PROJECT_DIR$/IntruducaoJavaLogicaBasica/IntruducaoJavaLogicaBasica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/devdojo.iml" filepath="$PROJECT_DIR$/.idea/devdojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaNinja/javaNinja.iml" filepath="$PROJECT_DIR$/javaNinja/javaNinja.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maratona-java/maratona-java.iml" filepath="$PROJECT_DIR$/maratona-java/maratona-java.iml" />
+    </modules>
+  </component>
+</project>
