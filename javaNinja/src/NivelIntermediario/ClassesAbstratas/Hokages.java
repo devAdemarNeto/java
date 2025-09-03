@@ -22,6 +22,7 @@ public abstract class Hokages {
     }
 
     public Hokages (int idade){
+
         this.idade = idade;
     }
 

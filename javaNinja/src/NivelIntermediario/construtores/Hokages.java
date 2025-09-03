@@ -10,12 +10,14 @@ public class Hokages {
     double altura;
     double saldoBancario;
 
+    //No args constuctor: construtor sem argumentos
     public Hokages() {
     }
 
     // Criar construtor com argumentos
+
     public Hokages (String nome){
-        this.nome = nome; // a palavra this seta o atributo nome
+        this.nome = nome; // a palavra this seta o atributo nome, referencia o atributo
 
     }
 
@@ -29,6 +31,7 @@ public class Hokages {
         this.vivo = vivo;
     }
 
+    //all args constructor: construtor com todos os argumentos
     public Hokages(int idade, String nome, boolean vivo, String aldeia, int missoes, double altura, double saldoBancario) {
         this.idade = idade;
         this.nome = nome;
@@ -38,4 +41,5 @@ public class Hokages {
         this.altura = altura;
         this.saldoBancario = saldoBancario;
     }
+
 }
