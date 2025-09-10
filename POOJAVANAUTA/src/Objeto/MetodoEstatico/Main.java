@@ -1,0 +1,8 @@
+package Objeto.MetodoEstatico;
+
+public class Main {
+    public static void main(String[] args) {
+        Integer cpf = 012547;
+        String cpfConvertido = Util.conversorDeString(cpf);
+    }
+}

@@ -1,0 +1,58 @@
+METODOS:
+
+Sintaxe de definição de metodos:
+[modidficador de acesso] [tipo de retorno] [nome do metodo] ([parametros])
+
+como nomear metodos:
+ usar nomes de forma clare e descritiva.
+ usar verbos que descrevem a ação do método
+ Usar formato camelCse(Primeira palavra minucula e as demais com a primeira letra maiusculas )
+
+Modificadores de acesso:
+public: Acessivel de qualquer lugar
+ptivate: Acessivel apenas dentro da clasee onde foi criado
+protected: Acessível dentro do mesmo pacote ou subclasses
+
+Tipos de retorno:
+O tipo de retorno define o tipo de dado que o método devolverá (int,String,double.Objeto)
+Uas-se void se o método não retorna nada
+//retorna um double
+    public double somarMetrgem(){
+        return metragem * numeroQuartos +getNumeroBanheiros;
+    }
+
+Parametros:
+não é obrigatorio ter parametros
+São informação que podem passar ou não par os metodos realizarem a tarefa determinada
+
+
+Metodos de instancia: precisam ser cahamdos a partr de uma instacia (objeto) da classe
+Metodos estátidos: Podem sem chamados diretamente apartir da classe , sem a necessidade d criar um objeto
+
+
+Classes, Interface, pacotes
+
+Classe: È uma estrutra que define um tipo de objeto.
+pode conter atributos e metodos que descrevem e manipulam o objeto.
+
+Interface: é uma referência a um conjunto de mátodos que uma classe deve implementar.
+são usadas para garantir que diferentes classes implementem os mesmos metodos, promovendo a interoperabilidade.
+
+Pacotes: é um agrupamento de classes e interfaces relacionadas.
+Ela ajuda a organizar o código e evita conflitos de nomes.
+pacotes tambem ajudam a controlar o acesso as classe e interface.
+
+Pilares fundamentais da POO
+Encapsulamento, Herança, Polimorfismo, Abstração
+
+Encapsulamento: restringe o acesso dos componentes da classe,
+geralmente torna os componentes privado, e fornece outros métodos publicos para acessa-los, ajuda a protegeros dados internos
+do objeto e promeove a integridade e segurança
+
+proteção de dados: impede que os dados sejam alterados diretamente de fora da classe.
+
+Ocultação de informação: /esconde os detalhes internos da implementação da classe, expondo apenas o necessário para o uso da classe
+
+Facilidade de mantenção: permite modificar a implementação interna sem afetar o codigo externo que usa a classe
+
+Modularidade: ajud a dividir o programa em parte menores e mais gerenciaveis.
