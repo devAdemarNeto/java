@@ -56,3 +56,22 @@ Ocultação de informação: /esconde os detalhes internos da implementação da
 Facilidade de mantenção: permite modificar a implementação interna sem afetar o codigo externo que usa a classe
 
 Modularidade: ajud a dividir o programa em parte menores e mais gerenciaveis.
+
+HERANÇA:
+Permite que a classe herde atributos e metodos de outra classe, promovendo a reutilização do código.
+Redez a duplicação de código e melhora a organização- Representado pela palavra extends
+
+Diferança entre herança e interface:
+Na interface a classe é obrigatório a implementação dos metodos
+Na herança é possivel escolher os metodos
+
+Uma classe pode implementar multiplas interfaces, enquanto que na herança só pode herdar uma classe
+
+
+POLIMORFISMO:
+
+um unico nome de método possa se referir a diferentes comportamentos dependenddo do objeto que o chama
+Existem dois tipos principais de polimorfismo em java:
+
+De compilação(Sobrecarga de mátodos)
+De tempo de execução (Sobrescrita de métodos')
