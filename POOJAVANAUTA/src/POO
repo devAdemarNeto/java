@@ -70,8 +70,27 @@ Uma classe pode implementar multiplas interfaces, enquanto que na herança só p
 
 POLIMORFISMO:
 
-um unico nome de método possa se referir a diferentes comportamentos dependenddo do objeto que o chama
+Permite queum unico nome de método possa se referir a diferentes comportamentos dependenddo do objeto que o chama
 Existem dois tipos principais de polimorfismo em java:
 
-De compilação(Sobrecarga de mátodos)
-De tempo de execução (Sobrescrita de métodos')
+De compilação(Sobrecarga de métodos)
+
+
+De tempo de execução (Sobrescrita de métodos)
+
+Compilação: fase que o código fonte é transformado em código de máquina(bytecode) pelo compilador.
+
+Tempo de execução: Fase após o codigo ser compilado, qu é executado pela maquina virtual(JVM) ou pelo sistema operacional
+
+Polimorfirmo de compilação:
+A sobrecarga de métodos ocorre quando vc define métodos com o mesmo nome , mas com diferentes
+assinaturas(difrente numero ou tipo de parametro) na mesma classe. O compilador descide qual metodo
+chamar com base na lista de argumentos fornecidos na chamada do metodo.
+Nomes iguais, porem com parametros diferentes.
+
+
+Polimorfismo De tempo de execução (Sobrescrita de métodos):
+Ocorre quando uma classe filha fornece uma implementação especifica de um metodo que já esta definido
+na sua classe pai.
+Neste caso, a decisão sobre qual metodo usar é feita durante a execução do programa(runtime).
+
