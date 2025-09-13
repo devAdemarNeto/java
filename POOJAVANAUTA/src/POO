@@ -94,3 +94,28 @@ Ocorre quando uma classe filha fornece uma implementação especifica de um meto
 na sua classe pai.
 Neste caso, a decisão sobre qual metodo usar é feita durante a execução do programa(runtime).
 
+
+COMPOSIÇÃO E AGREGAÇÃO:
+São formas de associação onde um objeto contém o outro.
+
+Composição: é uma relaçãoforte entre duas classes, onde um classe contém uma instancia
+de outra classe como um dos seus atributos. EX: não existe carro sem motor, onde se um deixa de existir o outro tbm
+deixa, representa uma relação parte-todo, onde o ciclo de vida e dependente.
+
+Agregação: é uma realação mais fraca, onde um é referencia do outro, porem o ciclo de vida de um não está
+totalmente ligado ao outro. Ex: departamento e fncionários, eles não dependem um do outra para existir.
+
+
+ABSTRACAO:
+É difernte de classe abstrata.
+Envolve a criacao de calsses que representam entidades do mundo real com suas prioridades e comportamento mais relevantes
+ignorando os detalhes que não são importantes para o contexto especifico.
+
+Classe("pai")
+ex: classe pessoa: tem nome, idade e telefone
+classe funcionario e classe cliente, poderia utilizar a classe pessoa pois os dois tem os mesmos atributos em comum
+
+
+Diferença entre interface e classe abstrata:
+Interface é um contrato, a classe que implementa uma interface, obrigatorioamente ela precisa utilizar todos os metodos da interface
+Classe abstrata não formam um contrato, pode se utilizar o que for interessante.
