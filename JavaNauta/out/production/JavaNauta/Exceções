@@ -1,0 +1,20 @@
+Permintem que desenvolvedores lidem com situações inesperadas ou erros de uma maneira controlada,
+evitendo que um programa termine de forma repentina.
+
+porque usar exceções?
+Manutenção e Depuração: Exceç~es ajudam a identificar onde um erro ocorreu e que foi a causa,
+facilitando a depuração e a manutenção no código
+
+Controle de fluxo: permite ao desenvolvedor gerenciar o fluxo do programa em situações excepicionais
+sem interromper a execução no normal do código.
+
+Robustez eCon fialbilidade: pro gramas com exceções são mais robustos e menos propensos a falhas inesperadas.
+
+
+Tipos de exceções:
+
+Exceções Verificadas: Quando o código é escrito, o proprio compilador indica que o código é o obrigado a ter uma exceção.
+
+
+Exceções não verificadas: Não são obrigatórias, é oçãonal , inicadas para erros como lógica errada,
+erros de aritmética, ou acessao a indices invalidos de arrays
