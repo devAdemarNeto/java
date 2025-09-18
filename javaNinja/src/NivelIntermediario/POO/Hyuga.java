@@ -1,4 +1,4 @@
-package NivelIntermediario;
+package NivelIntermediario.POO;
 
 public class Hyuga extends Ninja{
     public void biakugamAtivado() {

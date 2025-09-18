@@ -1,5 +1,7 @@
 package Excecao.Naoverificada;
 
+import Excecao.ConflictExcepition;
+
 import java.util.Scanner;
 
 public class VerificaCPF {
@@ -16,12 +18,12 @@ public class VerificaCPF {
     public static String verificaCPF(String cpf){
         try {
             if (cpf.equals("00012512378")){
-                throw new RuntimeException("CPF já cadastrado " + cpf);
+                throw new ConflictExcepition("CPF já cadastrado " + cpf);
             }else{
                 return "CPF válido, usuário cadastrao";
             }
-        } catch (RuntimeException e) {
-            throw new RuntimeException("CPF já cadastrado");
+        } catch (ConflictExcepition e) {
+            throw new ConflictExcepition("CPF já cadastrado");
         }
 
     }

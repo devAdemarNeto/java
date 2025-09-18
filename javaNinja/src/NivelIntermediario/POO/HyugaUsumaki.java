@@ -1,4 +1,4 @@
-package NivelIntermediario;
+package NivelIntermediario.POO;
 
 public interface HyugaUsumaki {
     void AtivarKarma();

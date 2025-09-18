@@ -4,4 +4,11 @@ Objeto: algo que vc consegue manipular
 Herança:
 Usar caracteríticas de uma clase mãe em outras classes filhas para assim poupar código e agilizar trabalho.
 
+Polimorfismo:
+Criar uma função única que pode ser utilizada em diferentes classes com diferentes características
+
+Encapsulamento:
+Capacidade de proteger variaveis e classes para que não haja vazamento e mantendo assim
+protegida e encapsulada nossos objetos
+
 Interface: é como uma  não interface não se consegue criar uma classe a partir dela

@@ -1,6 +1,6 @@
-package NivelIntermediario;
+package NivelIntermediario.Heranca;
 
-public class Uchiha extends Ninja{
+public class Uchiha extends Ninja {
 
     public void sharinganAtivado(){
 

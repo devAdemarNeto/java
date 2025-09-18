@@ -1,9 +1,9 @@
-package NivelIntermediario;
+package NivelIntermediario.POO;
 // Classe: Molde para um objeto
 public class Ninja {
-    String nome;
-    String aldeia;
-    int idade;
+    public String nome;
+    public String aldeia;
+    public int idade;
 
     //Metodo geral! Todos os ninjas vao ter
     public void habilidadeEspecial(){

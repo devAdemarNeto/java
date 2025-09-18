@@ -1,4 +1,4 @@
-package NivelIntermediario;
+package NivelIntermediario.Interface;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,16 +10,16 @@ public class Main {
         Naruto.nome = "Naruto Uzumaki";
         Naruto.aldeia = "Aldeia da Folha";
         Naruto.idade = 16;
-        Naruto.ModoSabioAtivado();
-        Naruto.habilidadeEspecial(); //polimorfismo
+        Naruto.ModoSabioAtivado(); //Herança
+
 
         //OBJETO 2
         Uchiha Sasuke = new Uchiha();
         Sasuke.nome = "Sasuke Utchiha";
         Sasuke.idade = 18;
         Sasuke.aldeia = "Folha";
-        Sasuke.sharinganAtivado();
-        Sasuke.habilidadeEspecial(); //Polimorfismo
+        Sasuke.sharinganAtivado(); //Herança
+
 
 
 
@@ -28,22 +28,25 @@ public class Main {
         Sakura.nome = "Sakura Haruno";
         Sakura.idade = 18;
         Sakura.aldeia = "Folha";
-        Sakura.ativarCura();
+        Sakura.ativarCura(); //Herança
+
 
         Hyuga Hinata = new Hyuga();
         Hinata.nome = "Hinata Huga";
         Hinata.idade = 16;
         Hinata.aldeia = "Folha";
-        Hinata.biakugamAtivado();
+        Hinata.biakugamAtivado(); //Herança
 
-        Boruto Boruto = new Boruto();
-        Boruto.nome = "Boruto Uzumaki";
-        Boruto.aldeia = "Aldeia da Folha";
-        Boruto.idade = 9;
+        Boruto boruto = new Boruto();
+        boruto.nome = "Boruto";
+        boruto.idade = 10;
+        boruto.aldeia = "Folha";
 
-        Boruto.AtivarJougan();
-        Boruto.ModoSabioAtivado();
-        Boruto.AtivarKarma();
+        boruto.ModoSabioAtivado();
+        boruto.AtivarKarma();
+        boruto.AtivarJogan();
+
+
 
 
 

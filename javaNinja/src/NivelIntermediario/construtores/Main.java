@@ -14,6 +14,8 @@ public class Main {
 
         Hokages Minato = new Hokages("Minato Namikaze", 32, false);
         System.out.println(Minato.idade);
+        System.out.println(Minato.nome);
+        System.out.println(Minato.vivo);
 
 
     }
