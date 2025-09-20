@@ -1,6 +1,7 @@
-package NivelIntermediario.PolimorfismoEAbstracao;
+package NivelIntermediario.OverloadSobrecargaConstrutores;
 
 public class Uchiha extends Ninja{
+
     //usa-se a anotação sobrescrever o metodo da classe ninja
     //Sub classe de Ninja
 
@@ -12,6 +13,11 @@ public class Uchiha extends Ninja{
 
     public Uchiha(String nome, String aldeia, int idade) {
         super(nome, aldeia, idade);
+    }
+
+    //Sobrecarga nas sub classes
+    public Uchiha(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank) {
+        super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
     }
 
     @Override

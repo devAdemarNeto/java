@@ -9,4 +9,8 @@ public abstract class Ninja {
     //Metodo abstrato
 
     public abstract void nomeDoNinja();
+
+    public void lancarKunai(){
+        System.out.println("Lançar Kunai");
+    }
 }

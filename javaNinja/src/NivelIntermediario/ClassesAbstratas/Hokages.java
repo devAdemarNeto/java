@@ -1,5 +1,11 @@
 package NivelIntermediario.ClassesAbstratas;
 
+// classe abstrada Evita que os objetos sejam criados a partir da classe hokages
+// classe abstrada não pode ser instanciadas: não pode criar um objeto a parti dela
+// Vira uma super classe, e é obrigado a criar outra classe e extender a super classe
+
+
+
 public abstract class Hokages {
     String nome;
     int idade;
@@ -9,6 +15,8 @@ public abstract class Hokages {
     double altura;
     double saldoBancario;
 
+
+    // Metodo abstrato: Eles não tem corpo,e todoas as classe que nascerem a partir da super classe, é obrigada a utilizar o metodo.
 
     public abstract void sabedoriaHokage();
 

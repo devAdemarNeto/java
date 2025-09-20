@@ -1,6 +1,7 @@
 1- Semelhanças:
 Nenhuma das duas consegue criar objetos
 
+
 2-Classes abstratas:
 É utilizada para escalabilidade e manutenção, pois os objetos não serão criados diretamente pela classe abstrata,
 e sim será criada uma outra classe normal será chamada de subclasse que herdará a classe abstrata e usuára
