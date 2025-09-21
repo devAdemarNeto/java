@@ -1,14 +1,11 @@
-package NivelIntermediario.OverloadSobrecargaConstrutores;
+package NivelIntermediario.OverloadSobrecarga;
 
 public class Main {
     public static void main(String[] args) {
         //Obj Ninja não pode ser criadao pois é uma abstração
 
         //obj Uzumaki
-        Usumaki naruto = new Usumaki();
-        naruto.nome = "Naruto Uzumaki";
-        naruto.aldeia = "Folha";
-        naruto.idade = 15;
+        Usumaki naruto = new Usumaki("Naruto Uzumaki", "Folha", 15, 30, NivelNinja.GENIN);
         naruto.habilidadeEspecial();
         naruto.estrategiaDeBatalhaNinja();
 
@@ -29,7 +26,8 @@ public class Main {
         Uchiha madara = new Uchiha("Madara Uchiha", "Folha", 45, 50,NivelNinja.KAGE);
         madara.habilidadeEspecial();
         madara.habilidadeEspecial();
-
+        madara.inteligenciaDeCombate();
+        madara.inteligenciaDeCombate(180);
 
 
     }

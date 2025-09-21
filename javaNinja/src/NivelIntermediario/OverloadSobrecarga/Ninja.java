@@ -1,4 +1,4 @@
-package NivelIntermediario.OverloadSobrecargaConstrutores;
+package NivelIntermediario.OverloadSobrecarga;
 
 public abstract class  Ninja implements EstrategiaDeBatalha{
     //TODO: Incluir 2 novos atributos: numeroDeMissoesConcluidas, Rank
@@ -44,5 +44,23 @@ public abstract class  Ninja implements EstrategiaDeBatalha{
     @Override
     public void estrategiaDeBatalhaNinja() {
         System.out.println("Meu nome é " + nome + " Essa é minha estrategia de batalha");
+    }
+
+    //Sobrecarga de metodos
+
+
+    public void inteligenciaDeCombate() {
+        System.out.println("Meu nome é " + nome + " Essa é minha inteligencia de batalha");
+    }
+
+
+    public void inteligenciaDeCombate(int qi){
+        if(qi > 150){
+            System.out.println("Seu QI é: " + qi + " e você é um genio");
+        } else if (qi >= 130){
+            System.out.println("Seu QI é: " + qi + " e você é promissor");
+        }else {
+            System.out.println("Seu QI é: " + qi + " e você precisa treinar mais");
+        }
     }
 }
