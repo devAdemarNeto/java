@@ -8,6 +8,10 @@ public class AprendendoSpringApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AprendendoSpringApplication.class, args);
+
+		Usuario joao = new Usuario("Joao", "joaodasilva@hotmail.com", "123456" );
+
+		
 	}
 
 }
