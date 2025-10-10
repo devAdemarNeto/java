@@ -4,6 +4,7 @@ import com.ademar.aprendendospring2.infrastructure.entity.Usuario;
 import com.ademar.aprendendospring2.infrastructure.exceptions.ConflictException;
 import com.ademar.aprendendospring2.infrastructure.repository.UsuarioRepository;
 import lombok.RequiredArgsConstructor;
+import org.hibernate.ResourceClosedException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -40,6 +41,15 @@ public class UsuarioService {
 
     public boolean verificaEmailExistente(String email){
         return usuarioRepository.existsByEmail(email);
+    }
+
+    public Usuario buscarUsuarioPorEmail(String email){
+        return usuarioRepository.findByEmail(email).orElseThrow(
+                () -> new ResourceClosedException("Email não encontrad" + email));
+    }
+
+    public void deletaUsuarioPorEmail(String email){
+        usuarioRepository.deleteByEmail(email);
     }
 
 }
