@@ -23,13 +23,22 @@ public class Main {
         sakura.nome = "Sakura";
         sakura.idade = 18;
         sakura.aldeia = "Aldeia da folha";
+        sakura.CuraAtivada();
         String mensagem3 = sakura.euSouNinja();
         System.out.println(mensagem3);
 
-        Ninja ninja4 = new Ninja();
-        ninja4.nome = "Hinata";
-        ninja4.idade =  16;
-        ninja4.aldeia = "Aldeia da folha";
+        Hyuga hinata = new Hyuga();
+        hinata.nome = "Hinata";
+        hinata.idade =  16;
+        hinata.aldeia = "Aldeia da folha";
+        hinata.biakugam();
+
+        Boruto boruto = new Boruto();
+        boruto.nome = "Boruto";
+        boruto.idade =  16;
+        boruto.aldeia = "Aldeia da folha";
+        boruto.ativarJogan();
+        boruto.ativarKarma();
 
 
 
