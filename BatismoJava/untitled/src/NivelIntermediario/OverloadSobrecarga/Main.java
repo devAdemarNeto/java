@@ -6,8 +6,12 @@ public class Main {
 
         //obj Uzumaki
         Usumaki naruto = new Usumaki("Naruto Uzumaki", "Folha", 15, 30, NivelNinja.GENIN);
+        naruto.nome = "Naruto Uzumaki";
+        naruto.aldeia = "Folha";
+        naruto.idade = 16;
         naruto.habilidadeEspecial();
         naruto.estrategiaDeBatalhaNinja();
+        System.out.println(naruto);
 
 
         //obj Uchiha

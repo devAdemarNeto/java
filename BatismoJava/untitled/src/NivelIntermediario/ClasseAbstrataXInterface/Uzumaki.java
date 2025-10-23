@@ -1,5 +1,11 @@
 package NivelIntermediario.ClasseAbstrataXInterface;
 
-public class Uzumaki extends Ninja{
+import NivelIntermediario.ClasseAbstrataXInterface.Ninja;
 
+public class Uzumaki extends Ninja {
+
+    @Override
+    public void nomeNinja() {
+
+    }
 }

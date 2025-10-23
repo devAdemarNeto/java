@@ -12,5 +12,8 @@ public class Main {
         sasuke.nome = "Sasuke";
         sasuke.habilidadeEspecial();
         sasuke.estrategiaBatalha();
+
+        Anbu ninjaAnbu = new Anbu();
+        ninjaAnbu.nome = "Ninja especial";
     }
 }
