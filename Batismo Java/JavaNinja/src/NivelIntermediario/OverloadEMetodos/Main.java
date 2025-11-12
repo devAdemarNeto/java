@@ -10,6 +10,7 @@ public class Main {
 
         naruto.habilidadeEspecial();
         naruto.estrategiaDeBatalhaNinja();
+        System.out.println(naruto);
 
 
         // Obj uchiha
