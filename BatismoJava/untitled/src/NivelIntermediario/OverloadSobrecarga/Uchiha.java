@@ -1,6 +1,6 @@
 package NivelIntermediario.OverloadSobrecarga;
 
-public class Uchiha extends Ninja{
+public class Uchiha extends Ninja implements SharinganInterface{
 
     //usa-se a anotação sobrescrever o metodo da classe ninja
     //Sub classe de Ninja
@@ -43,5 +43,13 @@ public class Uchiha extends Ninja{
         }else {
             System.out.println("Seu QI é: " + qi + " e você precisa treinar mais");
         }
+    }
+
+   /*
+   * Metodo:
+   * Implementa da interface SharinganInterface
+   * */
+    public void sharinganAtivado() {
+        System.out.println("Sharingam ativou!!");
     }
 }
