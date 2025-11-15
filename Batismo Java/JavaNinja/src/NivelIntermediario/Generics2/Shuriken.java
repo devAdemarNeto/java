@@ -1,4 +1,4 @@
-package NivelIntermediario.OverloadEConstrutores;
+package NivelIntermediario.Generics2;
 
 public class Shuriken {
     private int tamanho;
